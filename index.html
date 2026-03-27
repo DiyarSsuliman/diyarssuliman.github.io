@@ -13,7 +13,7 @@
             <img src="Logo.png" alt="">
         </div>
         <div class="lineUpbuttons">
-            <button class="but-ma">Varmmat</button>
+            <button id="but-ma" class="but-ma">Varmmat</button>
             <button  class="but-ki">Kiosk</button>
         </div>
     </footer>
@@ -60,6 +60,14 @@
         </div>
 
    </footer>
+
+       <script>
+        const button = document.getElementById("but-ma");
+        button.addEventListener("click", () => {
+            window.location.href = "https://diyarssuliman.github.io/varmmat/";
+        });
+      </script>
+       
 
 
 </body>
